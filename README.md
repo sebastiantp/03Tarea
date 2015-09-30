@@ -61,12 +61,28 @@ Lorenz. El sistema de ecuaciones es el siguiente:
     ```
 
 La solución más famosa se obtiene con los parámetros &sigma;=10, &beta;=8/3 y
-&rho;=28.
-
-Utilice esos parámetros y elija un set de condiciones iniciales (x<sub>0</sub>,
-y<sub>0</sub>, z<sub>0</sub>) e integre la ecuación. Esta vez se pide que
-utilice un algoritmo RK4 pero no necesita implementarlo, puede usar los
+&rho;=28. Utilice esos parámetros, elija un set de condiciones iniciales
+(x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>) e integre la ecuación. Esta vez se
+pide que utilice un algoritmo RK4 pero no necesita implementarlo, puede usar los
 algoritmos disponibles en `scipy.integrate` o cualquier otro que encuentre y que
 sea de uso libre.
 
 Plotee en 3D la solución (x(t), y(t), z(t)).
+
+> Nota: Este repositorio incluye un archivo 3D.py que demuestra como hacer un
+  plot en 3D usando `matplotlib`. Puede usar este archivo como guía de ayuda.
+
+__Otras Notas.__
+
+- Utilice `git` durante el desarrollo de la tarea para mantener un historial de
+  los cambios realizados. La siguiente [*cheat
+  sheet*](https://education.github.com/git-cheat-sheet-education.pdf) le puede
+  ser útil. Esta vez empezaremos a evaluar el uso efectivo de `git`. Recuerde
+  hacer cambios significativos pero relativamente pequeños y guardar seguido.
+  Evite hacer `commits` de código que no compila.
+
+- La tarea se entrega como un *pull request* en github. El *pull request* debe
+  incluir todos los códigos usados además de su informe.
+
+- El informe debe ser entregado en formato *pdf*, este debe ser claro sin
+  información ni de más ni de menos.
