@@ -19,5 +19,18 @@ donde k es la constante elástica y &mu; es un coeficiente de roce. Si |x| > a e
 
 con lo cual ahora la ecuación sólo depende de un parámetro, &mu;<sup>\*</sup>. Indique cuál es el cambio de variable realizado.
 
-Integre la ecuación de movimiento usando el método de Runge-Kutta de orden 2 visto en clase. Se pide que Ud. implemente su propia versión del algoritmo y descriva la discretización yusada y el paso de tiempo. Use &mu;<sup>\*</sup>=1.RRR, donde RRR son los 3 últimos dígitos de su RUT antes del guión.
+Integre la ecuación de movimiento usando el método de Runge-Kutta de orden 2 visto en clase. Se pide que Ud. implemente su propia versión del algoritmo, describa la discretización usada y el paso de tiempo. Use &mu;<sup>\*</sup>=1.RRR, donde RRR son los 3 últimos dígitos de su RUT antes del guión.
+
+> Nota: No olvide incluir su Nombre y RUT en el informe.
+
+Integre la solución hasta T=20&pi; (aproximadamente 10 períodos) para las siguientes condiciones iniciales:
+
+<img src='eqs/iniciales.png' alt='condiciones iniciales' height='80'>
+
+>Latex:
+    `1) \dfrac{dy}{ds} = 0; y = 0.1\\
+     2) \dfrac{dy}{ds} = 0; y = 4.0`
+
+Grafique y(s) y la trayectoria en el espacio (y, dy/ds).
+
 
