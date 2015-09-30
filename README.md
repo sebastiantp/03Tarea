@@ -33,4 +33,19 @@ Integre la solución hasta T=20&pi; (aproximadamente 10 períodos) para las sigu
 
 Grafique y(s) y la trayectoria en el espacio (y, dy/ds).
 
+## P2
+
+El sistema de Lorenz es un set de ecuaciones diferenciales ordinarias conocido por tener algunas soluciones caóticas, la más famosa el llamado atractor de Lorenz. El sistema de ecuaciones es el siguiente:
+
+<img src='eqs/lorenz.png' alt='Lorenz system' height='120'>
+
+> Latex: 
+    ```
+    \begin{flalign*}
+    \dfrac{dy}{ds} &= \sigma (y - x)\\
+    \dfrac{dy}{ds} &= x (\rho - z) - y\\
+    \dfrac{dz}{dt} &= xy - \beta z
+    \end{flalign*}
+    ```
+
 
