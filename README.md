@@ -39,7 +39,7 @@ El sistema de Lorenz es un set de ecuaciones diferenciales ordinarias conocido p
 
 <img src='eqs/lorenz.png' alt='Lorenz system' height='120'>
 
-> Latex: 
+> Latex:
     ```
     \begin{flalign*}
     \dfrac{dy}{ds} &= \sigma (y - x)\\
@@ -48,4 +48,7 @@ El sistema de Lorenz es un set de ecuaciones diferenciales ordinarias conocido p
     \end{flalign*}
     ```
 
+La solución más famosa se obtiene con los parámetros &sigma;=10, &beta;=8/3 y &rho;=28.
+Elija un set de condiciones iniciales (x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>) e integre la ecuación. Esta vez se pide que utilice un algoritmo RK4 pero no necesita implementarlo, puede usar los algoritmos disponibles en `scipy.integrate` o cualquier otro que encuentre y que sea de uso libre.
 
+Plotee en 3D la solución (x(t), y(t), z(t)).
