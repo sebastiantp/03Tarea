@@ -62,10 +62,10 @@ Lorenz. El sistema de ecuaciones es el siguiente:
 
 La solución más famosa se obtiene con los parámetros &sigma;=10, &beta;=8/3 y
 &rho;=28. Utilice esos parámetros, elija un set de condiciones iniciales
-(x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>) e integre la ecuación. Esta vez se
-pide que utilice un algoritmo RK4 pero no necesita implementarlo, puede usar los
-algoritmos disponibles en `scipy.integrate` o cualquier otro que encuentre y que
-sea de uso libre.
+(x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>) e integre la ecuación por un
+tiempo que estime conveniente. Esta vez se pide que utilice un algoritmo RK4
+pero no necesita implementarlo, puede usar los algoritmos disponibles en
+`scipy.integrate` o cualquier otro que encuentre y que sea de uso libre.
 
 Plotee en 3D la solución (x(t), y(t), z(t)).
 
